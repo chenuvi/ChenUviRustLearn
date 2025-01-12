@@ -1,4 +1,4 @@
 mod example;
 fn main() {
-    example::generics_039::log();
+    example::generics_039::run();
 }
