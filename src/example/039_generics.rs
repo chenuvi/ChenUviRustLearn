@@ -20,7 +20,7 @@ impl BrowserCommand<String> {
 fn serialize_payload<T>(payload: T) -> String {
     "tst".to_owned()
 }
-
+#[allow(dead_code)]
 pub fn run() {
     let cmd1 = BrowserCommand::new("refresh".to_owned(), "www.abc.com".to_owned());
     let cmd2 = BrowserCommand::new("zoom".to_owned(), 200);
