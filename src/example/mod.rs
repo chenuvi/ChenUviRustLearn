@@ -6,3 +6,6 @@ pub mod traits_040;
 
 #[path = "050_rc.rs"]
 pub mod rc_050;
+
+#[path = "051_refcell.rs"]
+pub mod refcell_051;
