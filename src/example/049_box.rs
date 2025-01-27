@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 trait UIComponent {
     fn render(&self) {
         println!("Rendering Something");
