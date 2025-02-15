@@ -19,5 +19,5 @@ pub mod propagating_055;
 #[path = "057_multiple_err_types.rs"]
 pub mod multiple_err_types_057;
 
-#[path ="065_clo.rs"]
-pub mod clo_065;
+#[path = "065_closure.rs"]
+pub mod closure_065;

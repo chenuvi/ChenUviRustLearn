@@ -1,6 +1,6 @@
 mod example;
-
 use example::*;
+
 fn main() {
     // example::generics_039::run();
     // example::traits_040::run();
@@ -10,5 +10,5 @@ fn main() {
     // example::propagating_055::run();
     // example::multiple_err_types_057::run();
 
-    clo_065::run();
+    closure_065::run();
 }
