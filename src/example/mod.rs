@@ -1,3 +1,9 @@
+#[path = "023_enum.rs"]
+pub mod enum_023;
+
+#[path = "027_vectors.rs"]
+pub mod vectors_027;
+
 #[path = "039_generics.rs"]
 pub mod generics_039;
 

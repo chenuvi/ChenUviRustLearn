@@ -11,4 +11,6 @@ fn main() {
     // example::multiple_err_types_057::run();
 
     closure_065::run();
+    // enum_023::run();
+    // vectors_027::run();
 }
