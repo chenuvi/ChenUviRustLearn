@@ -1,2 +1,2 @@
 [workspace]
-members = ["kaisery_rust_camp"]
+members = ["kaisery_rust_camp", "rust_programming_language"]
