@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn run() {
     let weak_password = "password123".to_owned();
     let _validator = |username: &str, password: &str| !username.is_empty() && !password.is_empty();

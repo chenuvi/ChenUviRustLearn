@@ -27,3 +27,6 @@ pub mod multiple_err_types_057;
 
 #[path = "065_closure.rs"]
 pub mod closure_065;
+
+#[path = "076_share_state_between_threads.rs"]
+pub mod share_state_between_threads;
