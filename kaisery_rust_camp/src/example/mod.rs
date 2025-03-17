@@ -33,3 +33,6 @@ pub mod msg_between_threads_075;
 
 #[path = "076_share_state_between_threads.rs"]
 pub mod share_state_between_threads;
+
+#[path = "077_share_state_between_threads_continue.rs"]
+pub mod share_state_between_threads_continue;
