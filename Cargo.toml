@@ -1,2 +1,7 @@
 [workspace]
-members = ["kaisery_rust_camp", "rust_programming_language"]
+resolver = "3"
+members = [
+    "kaisery_rust_camp",
+    "listings/ch21_web_server",
+    "rust_programming_language",
+]
