@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = [
+members = [ "CommandComputer",
     "kaisery_rust_camp",
     "listings/ch21_web_server",
     "rust_programming_language",
