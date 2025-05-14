@@ -12,5 +12,6 @@ fn main() {
     // let qb = temp::request::QueryParser::from_string(&query);
     // println!("qb is {:#?}", qb);
 
-    thread::create_channel();
+    // thread::create_channel();
+    mutex_arc::run();
 }
