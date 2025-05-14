@@ -6,7 +6,7 @@ pub struct QueryParser<'a> {
     query: &'a str,
     params: HashMap<&'a str, &'a str>,
 }
-
+#[allow(dead_code)]
 impl<'a> QueryParser<'a> {
     pub fn from_string(query: &'a str) -> Self {
         let params: HashMap<&'a str, &'a str> = query
