@@ -1,7 +1,11 @@
 mod lists;
 mod temp;
+
+mod lxqx;
 #[allow(unused_imports)]
 use lists::*;
+#[allow(unused_imports)]
+use lxqx::*;
 fn main() {
     // iterator::run();
     // iterator_shoe
@@ -15,5 +19,7 @@ fn main() {
     // thread::create_channel();
     // mutex_arc::run();
 
-    largest::run();
+    // largest::run();
+
+    multi_threads::run();
 }

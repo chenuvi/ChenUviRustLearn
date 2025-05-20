@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn largest<T: std::cmp::PartialOrd + Copy>(list: &[T]) -> T {
     let mut largest = list[0];
 
@@ -23,6 +24,7 @@ impl<T, U> Point<T, U> {
     }
 }
 
+#[allow(dead_code)]
 pub fn run() {
     let number_list = vec![34, 50, 25, 100, 65];
 
