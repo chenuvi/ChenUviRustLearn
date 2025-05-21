@@ -5,6 +5,12 @@ use std::{
 
 #[allow(dead_code)]
 pub fn run() {
+    one_thread();
+    run_arc();
+}
+
+#[allow(dead_code)]
+fn run_arc() {
     let counter = Arc::new(Mutex::new(0));
     let mut handles = vec![];
 
@@ -22,4 +28,14 @@ pub fn run() {
     }
 
     println!("Result: {}", *counter.lock().unwrap());
+}
+
+#[allow(dead_code)]
+fn one_thread() {
+    let m = Mutex::new(0);
+    {
+        let mut num = m.lock().unwrap();
+        *num = 6;
+    }
+    println!("m = {:?}", m);
 }
