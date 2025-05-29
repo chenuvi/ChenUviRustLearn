@@ -5,5 +5,5 @@ members = [
     "calculator",
     "kaisery_rust_camp",
     "listings/ch21_web_server",
-    "rust_programming_language",
+    "rust_programming_language", "web-starter",
 ]
